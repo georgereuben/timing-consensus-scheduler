@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98035432-1860-45b8-8d08-9b48dd48f206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/OTP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/OTPController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/OTPRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/OTPService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/SlotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/SlotService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/OTPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/OTPService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcs/src/main/java/com/example/tcs/WebConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +109,7 @@
       <workItem from="1693238938197" duration="56000" />
       <workItem from="1693287269190" duration="3877000" />
       <workItem from="1694057962029" duration="4187000" />
-      <workItem from="1694066389042" duration="19408000" />
+      <workItem from="1694066389042" duration="21111000" />
     </task>
     <servers />
   </component>

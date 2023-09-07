@@ -52,6 +52,7 @@ public class OTPService {
     // Cleanup mechanism to remove expired OTPs
     @Scheduled(fixedDelay = 600000) // Run every 10 minutes (600,000 milliseconds)
     public void cleanupExpiredOTP() {
+        System.out.println("INITIATING OTP CLEANUP...");
         // Retrieve all OTPs from the database
         List<OTP> allOTPs = otpRepository.findAll();
 
@@ -67,6 +68,7 @@ public class OTPService {
             otpRepository.delete(expiredOTP);
             System.out.println("CLEARED OTP : " + expiredOTP.getOtpCode());
         }
+        System.out.println("OTP CLEANUP FINISHED");
     }
 
     private static String generateRandomOTP() {

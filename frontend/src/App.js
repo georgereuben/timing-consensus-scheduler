@@ -12,6 +12,7 @@ import './AddSlot.css';
 import './CheckSlot.css';
 import ResetPassword from './ResetPassword';
 import './components/LoginPage.css';
+import ValidateEmail from './ValidateEmail';
 
 function App() {
   return (

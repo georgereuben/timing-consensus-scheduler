@@ -277,7 +277,6 @@ public class SlotService {
             System.out.println("\nFacility removed from slot: " + slot.getId());
         }
         return member;
-
     }
 
     public boolean checkMemberAvail(Slot slot, Member member) {

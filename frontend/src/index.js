@@ -10,6 +10,7 @@ import LoginPage from './LoginPage'
 import ResetPassword from './ResetPassword'
 import SignUpPage from './SignUpPage';
 import BookFacility from './BookFacility';
+import ValidateEmail from './ValidateEmail';
 
 import{
   createBrowserRouter,
@@ -49,6 +50,10 @@ const Router=createBrowserRouter([
   {
     path: "ResetPassword",
     element:<ResetPassword/>,
+  },
+  {
+    path: "ValidateEmail",
+    element:<ValidateEmail/>,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
